@@ -118,6 +118,8 @@
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
   /* 覆盖样式 */
+  // .footer
+  //   display:none
   .cube-page
     &.tab-composite-view
       > .wrapper

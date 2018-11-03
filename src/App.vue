@@ -2,9 +2,7 @@
   <div id="app">
       <!-- <router-link to="/">Home</router-link> | -->
       <!-- <router-link to="/about">About</router-link> -->
-      <div class="content">
-        <router-view/>
-      </div>
+      <router-view/>
 
       <div class="footer">
         <cube-tab-bar
@@ -51,7 +49,8 @@ export default {
    position:fixed;
    bottom:0;
    width: 100%;
-   background-color: #ccc;
+   background-color: #f7f7fa;
    z-index: 20;
+   font-size: 0.6rem;
  }
 </style>
